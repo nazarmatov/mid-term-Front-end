@@ -1,0 +1,80 @@
+
+body {
+    background-image: url(img/background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+  }
+  
+  
+  .icon {
+    padding: 20px;
+    background-color:black;
+    opacity: 0.6;
+    margin: 30px 1px 1px 1px;
+  }
+  
+  .icon:hover {
+    opacity: 0.9;
+  }
+  
+  #selected {
+    background-color:black;
+    opacity: 0.9;
+  }
+
+  .cafe_menu {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 330px;
+    text-align: center;
+  }
+  
+  .img_food {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #333;
+    margin: 10px;
+  }
+  
+  h2 span {
+    display: block;
+    font-size: 15px;
+    color: #777;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+
+.price {
+    color: black;
+    opacity: 0.6;
+  }
+li .price:hover{
+  opacity: 1;
+}
